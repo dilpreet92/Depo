@@ -1,15 +1,12 @@
-class BooksController < ApplicationController
+class ArticlesController < ApplicationController
 
   #before_action :load_article, only: :show
 
-  #load_and_authorize_resource :book, parent: false
-  load_resource :article, find_by: :a
-  load_resource :books, through: :article
+  load_and_authorize_resource
   #
 
   
   def index
-    @books = 
     #debugger
     #@articles = Article.all
     #@articles = Article.accessible_by(current_ability)
