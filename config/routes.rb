@@ -1,11 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
 
-  resources :articles do
-    collection do
-      get '/enable', to: 'articles#enable'
-    end
-  end
+  resources :articles
   mount_griddler
   ## post '/email_processor' => 'griddler/emails#create'
   # The priority is based upon order of creation: first created -> highest priority.
