@@ -9989,3 +9989,250 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 12:00:34
 
 
 Started GET "/websocket" for 127.0.0.1 at 2015-03-12 12:00:34 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 12:31:04 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/vinsol/.rvm/gems/ruby-2.1.3@global/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 16ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/chats" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+Processing by ChatsController#index as HTML
+  Rendered chats/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 135ms (Views: 134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/websocket.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/websocket_rails/abstract_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-12 12:31:08 +0530
+
+
+Started GET "/chats" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+Processing by ChatsController#index as HTML
+  Rendered chats/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/websocket.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/websocket_rails/abstract_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 12:34:49 +0530
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-12 12:34:50 +0530
+
+
+Started GET "/chats" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+Processing by ChatsController#index as HTML
+  Rendered chats/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/websocket.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/websocket_rails/abstract_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-12 12:37:09 +0530
+
+
+Started GET "/chats" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+Processing by ChatsController#index as HTML
+  Rendered chats/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/websocket.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/websocket_rails/abstract_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-12 12:37:31 +0530
+
+
+Started GET "/chats" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+Processing by ChatsController#index as HTML
+  Rendered chats/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/websocket.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/websocket_rails/abstract_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-12 12:49:05 +0530
