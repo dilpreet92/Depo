@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 20150303133111) do
   create_table "comments", force: true do |t|
     t.string  "from"
     t.string  "to"
-    t.string  "body"
+    t.text    "body"
     t.string  "subject"
     t.integer "user_id"
   end

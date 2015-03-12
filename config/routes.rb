@@ -2,7 +2,9 @@ Rails.application.routes.draw do
   devise_for :users
 
   resources :articles
-  mount_griddler
+  #mount_griddler
+  resource :email, only: :create
+  resources :chats, only: :index
   ## post '/email_processor' => 'griddler/emails#create'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

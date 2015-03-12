@@ -4,8 +4,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 gem 'devise'
-gem 'griddler'
-gem 'griddler-sendgrid'
+#gem 'mailman', :require => false
+#gem 'griddler'
+gem 'websocket-rails'
+#gem 'griddler-sendgrid'
 gem 'pg'
 # Use SCSS for 
 gem 'sass-rails', '~> 4.0.3'
