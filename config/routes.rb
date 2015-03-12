@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   #mount_griddler
   resource :email, only: :create
   resources :chats, only: :index
+  root to: 'chats#index'
   ## post '/email_processor' => 'griddler/emails#create'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
