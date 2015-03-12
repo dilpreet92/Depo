@@ -27,7 +27,7 @@ group :development, :test do
   gem 'byebug',                              '3.5.1'
 end
 
-gem 'unicorn'
+gem 'thin'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
