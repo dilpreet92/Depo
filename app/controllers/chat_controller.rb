@@ -1,9 +1,7 @@
 class ChatController < WebsocketRails::BaseController
 
-  include ActionView::Helpers::SanitizeHelper
-
   def initialize_session
-    puts "Session Initialized\n"
+    puts "CHAT Session Initialized\n"
   end
   
   def system_msg(ev, msg)
@@ -16,7 +14,7 @@ class ChatController < WebsocketRails::BaseController
   
   def user_msg(ev, msg)
     broadcast_message ev, { 
-      user_name:  connection_store[:user][:user_name], 
+      user_name:  connection_store[:user], 
       received:   Time.now.to_s(:short), 
       msg_body:   ERB::Util.html_escape(msg) 
       }
@@ -27,16 +25,11 @@ class ChatController < WebsocketRails::BaseController
   end
   
   def new_message
-    user_msg :new_message, message[:msg_body].dup
+    user_msg :new_message, message[:message_body].dup
   end
   
   def new_user
-    connection_store[:user] = { user_name: sanitize(message[:user_name]) }
-    broadcast_user_list
-  end
-  
-  def change_username
-    connection_store[:user][:user_name] = sanitize(message[:user_name])
+    connection_store[:user] = message[:user_name]
     broadcast_user_list
   end
   
