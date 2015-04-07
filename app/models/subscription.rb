@@ -2,7 +2,7 @@ class Subscription < ActiveRecord::Base
 
   include Stripe::Callbacks
 
-  after_invoice_created! do |invoice, event|
+  customer_subscription_created! do |customer, event|
     debugger
   end
 

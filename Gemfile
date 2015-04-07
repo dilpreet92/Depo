@@ -24,9 +24,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'spring',        group: :development
 
-group :development, :test do
-  gem 'byebug',                              '3.5.1'
-end
+gem 'byebug',                              '3.5.1'
 
 gem 'thin'
 
