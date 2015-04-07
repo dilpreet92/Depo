@@ -2877,3 +2877,30 @@ E [2015-03-19 13:13:31.611] [[31mDispatcher[0m] /Users/vinsol/.rvm/gems/ruby-2
 E [2015-03-19 13:13:31.611] [[31mDispatcher[0m] /Users/vinsol/.rvm/gems/ruby-2.1.3/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
 
 I [2015-03-19 17:34:37.232] [[32mConnectionManager[0m] Connection closed: #<Connection::dbd2195d2e4424b44555>
+I [2015-03-30 19:13:28.122] [[32mConnectionManager[0m] Connection opened: #<Connection::073a2dc7032280211002>
+I [2015-03-30 19:13:28.126] [[32mDispatcher[0m] Started Event: client_connected
+I [2015-03-30 19:13:28.126] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2015-03-30 19:13:28.126] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"073a2dc7032280211002"}
+I [2015-03-30 19:13:28.126] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::073a2dc7032280211002>
+I [2015-03-30 19:13:28.128] [[32mDispatcher[0m] Event client_connected Finished in 0.001016 seconds
+I [2015-03-30 19:13:28.135] [[32mDispatcher[0m] Started Event: new_user
+I [2015-03-30 19:13:28.135] [[32mDispatcher[0m] [36mName:[0m new_user
+I [2015-03-30 19:13:28.135] [[32mDispatcher[0m] [36mData:[0m {"user_name"=>"Guest_643"}
+I [2015-03-30 19:13:28.135] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::073a2dc7032280211002>
+I [2015-03-30 19:13:28.136] [[32mDispatcher[0m] Event new_user Finished in 0.00067 seconds
+I [2015-03-30 19:13:34.363] [[32mConnectionManager[0m] Connection closed: #<Connection::073a2dc7032280211002>
+I [2015-03-30 19:13:34.365] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2015-03-30 19:13:34.365] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2015-03-30 19:13:34.365] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::073a2dc7032280211002>
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] ArgumentError: wrong number of arguments (1 for 2)
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] /Users/vinsol/Desktop/Files From Previous Laptop/projects/depo/app/controllers/chat_controller.rb:7:in `system_msg'
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] /Users/vinsol/Desktop/Files From Previous Laptop/projects/depo/app/controllers/chat_controller.rb:38:in `delete_user'
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] /Users/vinsol/.rvm/gems/ruby-2.1.3/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] /Users/vinsol/.rvm/gems/ruby-2.1.3@global/gems/actionpack-4.1.8/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] /Users/vinsol/.rvm/gems/ruby-2.1.3@global/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] /Users/vinsol/.rvm/gems/ruby-2.1.3@global/gems/actionpack-4.1.8/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] /Users/vinsol/.rvm/gems/ruby-2.1.3/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] /Users/vinsol/.rvm/gems/ruby-2.1.3/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] /Users/vinsol/.rvm/gems/ruby-2.1.3/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-30 19:13:34.365] [[31mDispatcher[0m] /Users/vinsol/.rvm/gems/ruby-2.1.3/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+

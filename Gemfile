@@ -9,6 +9,7 @@ gem 'devise'
 gem 'websocket-rails'
 #gem 'griddler-sendgrid'
 gem 'pg'
+gem 'stripe-rails'
 # Use SCSS for 
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
