@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   resources :chats, only: :index
   root to: 'chats#index'
   resources :payments, only: [:index, :create]
-  namespace :stripe do
-    resources :events, only: :index
-  end
+  # namespace :stripe do
+  #   resources :events, only: :index
+  # end
 
 end
