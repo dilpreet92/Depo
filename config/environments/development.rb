@@ -9,7 +9,7 @@ Rails.application.configure do
   config.stripe.debug_js = true
   config.stripe.secret_key = 'sk_test_bx9z9Eu2fYOcrumXDqAiOy0w'
   config.stripe.publishable_key = 'pk_test_Vi8cqINABAHL4gcURjd9XQXE'
-  config.stripe.endpoint = '/stripe/events'
+  # config.stripe.endpoint = '/stripe/events'
 
   # Do not eager load code on boot.
   config.eager_load = true

@@ -1,7 +1,7 @@
 class Stripe::EventsController < ApplicationController
 
-  def index
-    debugger
+  def create
+    render plain: 'got the webhook'
   end
 
 end
