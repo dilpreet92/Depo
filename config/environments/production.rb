@@ -8,6 +8,9 @@ Rails.application.configure do
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
+  config.stripe.debug_js = true
+  config.stripe.secret_key = 'sk_test_bx9z9Eu2fYOcrumXDqAiOy0w'
+  config.stripe.publishable_key = 'pk_test_Vi8cqINABAHL4gcURjd9XQXE'
   config.eager_load = true
 
   # Full error reports are disabled and caching is turned on.
