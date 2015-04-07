@@ -1,10 +1,10 @@
 class Subscription < ActiveRecord::Base
 
-  # include Stripe::Callbacks
+  include Stripe::Callbacks
 
-  # customer_subscription_created! do |customer, event|
-  #   debugger
-  # end
+  after_customer_subscription_created! do |customer, event|
+    puts customer
+  end
 
   attr_accessor :stripe_card_token
 
